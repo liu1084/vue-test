@@ -1,0 +1,45 @@
+@import "compass";
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+}
+
+.user-no-select{
+  @include user-select(none);
+}
+
+ul, li, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input, select, textarea {
+  border: 0;
+  background-color: #fff;
+  outline: none;
+  @include appearance(none);
+  @include border-radius(0);
+}
+
+input, select {
+  height: 30 * $onePx;
+  line-height: 30 * $onePx;
+}
+
+input[type="date"] {
+  height: 30 * $onePx;
+  line-height: 30 * $onePx;
+}
+
+.footer {
+  height: 150 * $onePx;
+  line-height: 150 * $onePx;
+  text-align: center;
+  background-color: #f2f2f4;
+}
+
+select, input {
+  width: 100%;
+  max-width: 100%;
+}

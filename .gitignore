@@ -1,0 +1,10 @@
+*.iml
+.idea/
+.project
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+node_modules
+bower_modules
+dist
+vendor
