@@ -1,66 +1,202 @@
 <!DOCTYPE html>
-<!--
-  ~ The MIT License
-  ~
-  ~ Copyright (c) 2015-2016 by Jim liu
-  ~
-  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
-  ~ of this software and associated documentation files (the "Software"), to deal
-  ~ in the Software without restriction, including without limitation the rights
-  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  ~ copies of the Software, and to permit persons to whom the Software is
-  ~ furnished to do so, subject to the following conditions:
-  ~
-  ~ The above copyright notice and this permission notice shall be included in
-  ~ all copies or substantial portions of the Software.
-  ~
-  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-  ~ THE SOFTWARE.
-  -->
 
 <html>
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
-    <title>two-way-bind.html</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico"/>
-    <link rel="stylesheet" href="../../vendor/normalize-css/normalize.css"/>
-    <link rel="stylesheet" href="../../vendor/pace/themes/blue/pace-theme-minimal.css"/>
-    <link rel="stylesheet" href="../../vendor/bootstrap/dist/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../assets/css/icon/fonts.css"/>
-    <link rel="stylesheet" href="../assets/css/toast.css"/>
-    <link rel="stylesheet" href="../assets/css/index.css"/>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../assets/img/favicon.ico"/>
+	<link rel="stylesheet" href="../assets/css/icon/fonts.css"/>
+	<link rel="stylesheet" href="../assets/css/toast.css"/>
+	<link rel="stylesheet" href="../assets/css/index.css"/>
 </head>
 <body>
 <div class="main">
-    <nav>
-        <ul>
-            <li class="nav-active">menu1</li>
-            <li>menu2</li>
-            <li>menu3</li>
-            <li>menu4</li>
-        </ul>
-    </nav>
-    <div class="hello">
-        <h2>Hello, {{message}}</h2>
-        <label for="message">Enter your name:</label>
-        <input type="text" v-model="message" id="message" />
-    </div>
+	<nav>
+		<ul>
+			<li class="nav-active">menu1</li>
+			<li>menu2</li>
+			<li>menu3</li>
+			<li>menu4</li>
+		</ul>
+	</nav>
+	<!--     <div class="hello">
+			<h2 v-bind:message="message">{{message}}</h2>
+			<label for="message">Enter your name:</label>
+			<input type="text" v-model="message" id="message" />
+		</div> -->
+
+	<!-- <div id="app-2">
+		<span v-bind:class="mini">{{mini}}</span>
+		<div v-show="seen">See me, see you</div>
+	</div>
+
+
+	<div id="app-3">
+		<ul>
+			<li v-for="item in items">{{item.text}}</li>
+		</ul>
+	</div>
+
+	<div id="app-5">
+		<form>
+			<input type="text" value="" v-model="message" />
+			<button v-on:click="reverseMessage">{{message}}</button>
+		</form>
+	</div> -->
+	<!--<div id="app-6">-->
+	<!--<form>-->
+	<!--<label for="msg">Input your username:</label>-->
+	<!--<input id="msg" type="text" value="" v-model="username.text" v-on:change="checkUserName"-->
+	<!--v-on:keyup="checkUserName"/>-->
+	<!--<span v-show="username.hasError">{{username.errors[0]}}</span>-->
+	<!--<button v-on:click="checkUserName">submit</button>-->
+	<!--</form>-->
+	<!--</div>-->
+
+	<!--<ul id="app-7">-->
+	<!--<list-item v-for="todo in todos" v-bind:todo="todo"></list-item>-->
+	<!--</ul>-->
+
+	<!--<ul id="app-8">-->
+	<!--<list-item v-for="todo in todos" v-bind:todo="todo"></list-item>-->
+	<!--<li is="list-item" v-for="todo in todos" v-bind:todo="todo"></li>-->
+	<!--</ul>-->
+
+	<!--<div id="app-9">-->
+		<!--<simple-counter></simple-counter>-->
+		<!--<simple-counter></simple-counter>-->
+		<!--<simple-counter></simple-counter>-->
+		<!--<simple-counter></simple-counter>-->
+	<!--</div>-->
 </div>
 
 <!-- Javascript start -->
-<script src="../../vendor/jquery/dist/jquery.js"></script>
 <script src="../../vendor/vue/dist/vue.js"></script>
+<script src="../../vendor/jquery/dist/jquery.min.js"></script>
 
 <script src="../app/components/navigator/nav.js"></script>
-<script src="../app/two-way-bind.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+
+<script>
+	//	 var app2 = new Vue({
+	//	 	el: '#app-2',
+	//	 	data: {
+	//	 		mini: 'test',
+	//	 		seen: true
+	//	 	}
+	//	 });
+
+	//	 var app3 = new Vue({
+	//	 	el: '#app-3',
+	//	 	data: {
+	//	 		items: [
+	//	 			{text: '1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda optio adipisci quibusdam provident, laborum modi suscipit corrupti quam nihil ipsam doloremque, reiciendis explicabo laudantium pariatur eaque ut. Libero, rem pariatur?'},
+	//	 			{text: '2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi impedit eius et, quae labore dolor, aspernatur ea minima quis iusto qui sit magni atque accusantium nihil deserunt consequatur tenetur!'},
+	//	 			{text: '3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae delectus aspernatur fugit maiores, nisi explicabo mollitia, ut rerum blanditiis aliquid cum consequuntur, impedit nulla, ad molestias quisquam unde et magnam!'},
+	//	 			{text: '4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, explicabo? At, eius deserunt, sapiente nulla veniam dolore ea! Ut facilis reiciendis cupiditate eaque eius culpa, dolor ratione maxime aliquam at.'},
+	//	 		]
+	//	 	}
+	//	 });
+
+	//	 var app5 = new Vue({
+	//	 	el: '#app-5',
+	//	 	data: {
+	//	 		message: 'test message'
+	//	 	},
+	//	 	methods: {
+	//	 		reverseMessage: function (argument) {
+	//	 			this.message = this.message.split(' ').reverse().join(' ');
+	//	 		}
+	//	 	}
+	//	 });
+
+	//	var app6 = new Vue({
+	//		el: '#app-6',
+	//		data: {
+	//			username: {
+	//				text: '',
+	//				errors: [],
+	//				required: true,
+	//				hasError: false
+	//			}
+	//		},
+	//		methods: {
+	//			checkUserName: function (argument) {
+	//				this.username.errors = [];
+	//				if (this.username.required === true && this.username.text.trim().length === 0){
+	//					this.username.errors.push('姓名是必须的');
+	//				}
+	//
+	//				if (this.username.text.length < 4){
+	//					this.username.errors.push('姓名不能少于4个字符')
+	//				}
+	//
+	//				if (!/[a-z]+[a-z0-9_]*@[a-z0-9]+\.[a-z]{2,3}\.?[a-z]{0,3}/.test(this.username.text)){
+	//					this.username.errors.push('姓名必须是email格式');
+	//				}
+	//
+	//				if (this.username.errors.length > 0){
+	//					this.username.hasError = true;
+	//				}
+	//
+	//				return false;
+	//			}
+	//		}
+	//	});
+
+	//	Vue.component('list-item', {
+	//		props: ['todo'],
+	//		template: '<li>{{todo.text}}</li>'
+	//	});
+	//
+	//	var app7 = new Vue({
+	//		el: '#app-7',
+	//		data: {
+	//			todos:  [
+	//				{id: 1, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem ipsa beatae animi aliquid odit quas necessitatibus, assumenda maxime, nobis labore recusandae culpa esse, provident incidunt. Itaque ipsum, amet perspiciatis.'},
+	//				{id: 2, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sint aliquid magni animi temporibus assumenda molestiae odit saepe eius ipsam, voluptates nostrum expedita eaque fugiat ratione sed, maiores velit voluptate.'},
+	//				{id: 3, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugit quam vitae quas. Temporibus repudiandae obcaecati doloribus, esse quas nihil natus laudantium maiores aspernatur dolorum, at dolor et cumque a.'},
+	//				{id: 4, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores saepe repellendus, rem voluptatem voluptatum autem porro a, deleniti. Fugiat molestiae aspernatur fugit id, voluptas quasi fuga architecto. Exercitationem, vel, harum!'},
+	//			]
+	//		}
+	//	});
+
+	//	var app8 = new Vue({
+	//		el: '#app-8',
+	//		data: {
+	//			todos: [
+	//				{id: 1, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum neque voluptatem quidem recusandae, iusto veniam, minima. Doloremque nihil, magnam aliquid iusto at ipsum reprehenderit, dicta, officiis recusandae eaque accusantium quisquam!'},
+	//				{id: 2, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore qui eaque, est cum optio fugiat quis magnam in animi, natus beatae, temporibus ad iste nemo voluptatum tenetur fugit officia itaque.'},
+	//				{id: 3, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fuga at autem distinctio debitis, eaque neque quia sint asperiores quis, assumenda veniam architecto, voluptas! Dolore dolor soluta error repudiandae tenetur.'},
+	//				{id: 4, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa atque ducimus quisquam maxime, quos officiis velit cum iure quidem inventore hic voluptatibus facilis esse nisi commodi accusantium ut! Ut, similique!'},
+	//				{id: 5, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis modi optio vero sit, accusantium suscipit voluptatibus commodi nisi id nobis harum esse nam inventore consequatur ut, quo dolore animi.'},
+	//			]
+	//		},
+	//		components: {
+	//			'list-item': {
+	//				props: ['todo'],
+	//				template: '<li v-bind:data-id="todo.id">{{todo.text}}</li>'
+	//			}
+	//		}
+	//	});
+
+	//	var app9 = new Vue({
+	//		el: '#app-9',
+	//		components: {
+	//			'simple-counter': {
+	//				template: '<button v-on:click="counter +=1">{{counter}}</button>',
+	//				data: function (){
+	//					return {
+	//						counter: 0
+	//					}
+	//				}
+	//			}
+	//		}
+	//	});
+</script>
 <!-- Javascript end -->
 </body>
 </html>
