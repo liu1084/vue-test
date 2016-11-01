@@ -65,12 +65,24 @@
 	<!--<li is="list-item" v-for="todo in todos" v-bind:todo="todo"></li>-->
 	<!--</ul>-->
 
-	<!--<div id="app-9">-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-	<!--</div>-->
+	<div id="app-9">
+		<simple-counter></simple-counter>
+		<simple-counter></simple-counter>
+		<simple-counter></simple-counter>
+		<simple-counter></simple-counter>
+	</div>
+
+	<div id="app-10">
+		<div>
+			<span>{{foo}}</span>
+			<button v-bind:disabled="checkButton">submit</button>
+			<span>{{number + 1}}</span>
+			<span>{{ok? 'yes': 'no' | capitalize | reverseString(ok)}}</span>
+			<span>{{messageReverse()}}</span>
+			<span v-bind:id="'list-' + number">{{'list-' + number}}</span>
+			<span>{{now}}</span>
+		</div>
+	</div>
 </div>
 
 <!-- Javascript start -->
@@ -183,19 +195,54 @@
 	//		}
 	//	});
 
-	//	var app9 = new Vue({
-	//		el: '#app-9',
-	//		components: {
-	//			'simple-counter': {
-	//				template: '<button v-on:click="counter +=1">{{counter}}</button>',
-	//				data: function (){
-	//					return {
-	//						counter: 0
-	//					}
-	//				}
-	//			}
-	//		}
-	//	});
+	var app9 = new Vue({
+		el: '#app-9',
+		components: {
+			'simple-counter': {
+				template: '<button v-on:click="counter +=1">{{counter}}</button>',
+				data: function () {
+					return {
+						counter: 0
+					}
+				}
+			}
+		}
+	});
+
+	var app10 = new Vue({
+		el: '#app-10',
+		data: {
+			foo: 'bar',
+			//checkButton: false,
+			number: 1,
+			ok: true,
+			message: 'hello world!'
+		},
+		methods: {
+			checkButton: function () {
+				this.checkButton = false;
+			},
+			messageReverse: function(){
+				return this.message.split('').reverse().join('');
+			}
+		},
+		filters: {
+			capitalize: function(value){
+				if (!value) return false;
+				value = value.toString();
+				return value.charAt(0).toUpperCase() + value.slice(1);
+			},
+			reverseString: function(str1, str2){
+				return str1.split('').reverse().join('');
+			}
+
+		},
+		computed: {
+			now: function(){
+				return Date.now();
+			}
+		}
+	});
 </script>
 <!-- Javascript end -->
 </body>

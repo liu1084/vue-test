@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f918f1-cec5-4fb2-9263-5b0d1f9e6b8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hello.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/vue_test_node_modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/two-way-bind.html" afterPath="$PROJECT_DIR$/src/views/two-way-bind.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/two-way-bind.js" afterPath="$PROJECT_DIR$/src/app/two-way-bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vue-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +28,18 @@
       <file leaf-file-name="two-way-bind.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5446585">
-              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.538">
+              <caret line="241" column="34" selection-start-line="241" selection-start-column="34" selection-end-line="241" selection-end-column="34" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#681#876#0" expanded="false" />
                 <element signature="e#879#1248#0" expanded="false" />
-                <element signature="e#2426#2450#0" expanded="false" />
-                <element signature="e#2543#2567#0" expanded="false" />
-                <element signature="e#3612#3636#0" expanded="false" />
-                <element signature="e#3869#3892#0" expanded="false" />
-                <element signature="e#4683#4714#0" expanded="false" />
-                <element signature="e#5894#5917#0" expanded="false" />
-                <element signature="e#7350#7373#0" expanded="false" />
+                <element signature="e#2737#2761#0" expanded="false" />
+                <element signature="e#2854#2878#0" expanded="false" />
+                <element signature="e#3923#3947#0" expanded="false" />
+                <element signature="e#4180#4203#0" expanded="false" />
+                <element signature="e#4994#5025#0" expanded="false" />
+                <element signature="e#6205#6228#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -626,12 +618,12 @@
       <workItem from="1477564165628" duration="2278000" />
       <workItem from="1477617404626" duration="6396000" />
       <workItem from="1477641214564" duration="901000" />
-      <workItem from="1477885617099" duration="8436000" />
+      <workItem from="1477885617099" duration="19109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27840000" />
+    <option name="totallyTimeSpent" value="38513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1596" y="-4" width="1608" height="908" extended-state="6" />
@@ -640,14 +632,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22755228" sideWeight="0.295" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31488314" sideWeight="0.295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22755228" sideWeight="0.705" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31488314" sideWeight="0.705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20375" sideWeight="0.49317408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20375" sideWeight="0.49317408" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1037,19 +1029,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5446585">
-          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.538">
+          <caret line="241" column="34" selection-start-line="241" selection-start-column="34" selection-end-line="241" selection-end-column="34" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#681#876#0" expanded="false" />
             <element signature="e#879#1248#0" expanded="false" />
-            <element signature="e#2426#2450#0" expanded="false" />
-            <element signature="e#2543#2567#0" expanded="false" />
-            <element signature="e#3612#3636#0" expanded="false" />
-            <element signature="e#3869#3892#0" expanded="false" />
-            <element signature="e#4683#4714#0" expanded="false" />
-            <element signature="e#5894#5917#0" expanded="false" />
-            <element signature="e#7350#7373#0" expanded="false" />
+            <element signature="e#2737#2761#0" expanded="false" />
+            <element signature="e#2854#2878#0" expanded="false" />
+            <element signature="e#3923#3947#0" expanded="false" />
+            <element signature="e#4180#4203#0" expanded="false" />
+            <element signature="e#4994#5025#0" expanded="false" />
+            <element signature="e#6205#6228#0" expanded="false" />
           </folding>
         </state>
       </provider>
