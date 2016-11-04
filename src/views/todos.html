@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../assets/img/favicon.ico"/>
+	<link rel="stylesheet" href="../assets/css/icon/fonts.css"/>
+	<link rel="stylesheet" href="../assets/css/toast.css"/>
+	<link rel="stylesheet" href="../assets/css/index.css"/>
+</head>
+<body>
+<div class="main">
+	<nav>
+		<ul>
+			<li class="nav-active">menu1</li>
+			<li>menu2</li>
+			<li>menu3</li>
+			<li>menu4</li>
+		</ul>
+	</nav>
+</div>
+
+<div class="todo">
+	<ul>
+		<li><input v-model="newTask.task" v-on:click.enter="addNewTask" placeholder="enter a new task"/></li>
+		<li is="todo-list"></li>
+	</ul>
+</div>
+<!-- Javascript start -->
+<script src="../../vendor/vue/dist/vue.js"></script>
+<script src="../../vendor/jquery/dist/jquery.min.js"></script>
+
+<script src="../app/components/navigator/nav.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+
+<script>
+	var Todo = new Vue({
+		el: '.todo',
+		data: {
+			todos: [
+				{task: '6845F20F-8C4F-496D-BAB4-3F9031A49654'},
+				{task: '959FA3CE-CBCE-4BF4-A56C-D2F1B91018C4'},
+				{task: '411FFAAA-AF31-4912-9636-82FD7E933963'},
+				{task: '41452CE4-CBC6-4737-B50C-9434789AD245'},
+				{task: 'CEC40007-9F65-40C5-8BFB-291925B6BC6F'}
+			],
+			newTask: {task: ''},
+		},
+		//props: ['todos'],
+
+		components: {
+			'todo-list': {
+				props: ['todo'],
+				template:
+						'<ul>' +
+							'<li v-for="(item, index) in todos" v-bind:todo="item.task">' +
+								'<span>{{item.task}}</span>' +
+								'<span><input type="button" value="X" v-on:click="removeItem($emit(index))" /></span>' +
+							'</li>' +
+						'</ul>',
+				methods: {
+					removeItem: function(index){
+						this.todos.splice(index, 1);
+					},
+					addNewTask: function(){
+						this.todos.push(this.newTask);
+					}
+				}
+			}
+		}
+	});
+</script>
+<!-- Javascript end -->
+</body>
+</html>
