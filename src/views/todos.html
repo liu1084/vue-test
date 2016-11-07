@@ -24,10 +24,10 @@
 	</nav>
 </div>
 
-<div class="todo">
+<div id="todo">
 	<ul>
-		<li><input v-model="newTask.task" v-on:click.enter="addNewTask" placeholder="enter a new task"/></li>
-		<li is="todo-list"></li>
+		<li><input v-model="newTodo.task" v-on:keyup.enter="addNewTask" placeholder="enter a new task"/></li>
+		<li is="todo-list" v-for="(item, index) in todos" v-bind:todo="item.task" v-on:remove="removeItem(index)"></li>
 	</ul>
 </div>
 <!-- Javascript start -->
@@ -38,8 +38,14 @@
 <!-- <script src="../app/two-way-bind.js"></script> -->
 
 <script>
-	var Todo = new Vue({
-		el: '.todo',
+	var todo = Vue.component('todo-list', {
+				props: ['todo'],
+				template: '<li>{{todo}}<button v-on:click="$emit(\'remove\')">X</button></li>'
+			}
+	);
+
+	new Vue({
+		el: '#todo',
 		data: {
 			todos: [
 				{task: '6845F20F-8C4F-496D-BAB4-3F9031A49654'},
@@ -48,28 +54,14 @@
 				{task: '41452CE4-CBC6-4737-B50C-9434789AD245'},
 				{task: 'CEC40007-9F65-40C5-8BFB-291925B6BC6F'}
 			],
-			newTask: {task: ''},
+			newTodo: {task: ''}
 		},
-		//props: ['todos'],
-
-		components: {
-			'todo-list': {
-				props: ['todo'],
-				template:
-						'<ul>' +
-							'<li v-for="(item, index) in todos" v-bind:todo="item.task">' +
-								'<span>{{item.task}}</span>' +
-								'<span><input type="button" value="X" v-on:click="removeItem($emit(index))" /></span>' +
-							'</li>' +
-						'</ul>',
-				methods: {
-					removeItem: function(index){
-						this.todos.splice(index, 1);
-					},
-					addNewTask: function(){
-						this.todos.push(this.newTask);
-					}
-				}
+		methods: {
+			removeItem: function (index) {
+				this.todos.splice(index, 1);
+			},
+			addNewTask: function () {
+				this.todos.push(this.newTodo);
 			}
 		}
 	});
