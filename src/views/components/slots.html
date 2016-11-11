@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../../assets/img/favicon.ico"/>
+</head>
+<body>
+	<div id="app">
+		<app></app>
+	</div>
+<!-- Javascript start -->
+<script src="../../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script>
+
+	var Nav = Vue.extend({
+		template: '<nav></nav>'
+	});
+
+	var Header = Vue.extend({
+		template: '<header><nav-bar></nav-bar></header>',
+		components: {
+			'nav-bar': Nav
+		}
+	});
+
+	var Footer = Vue.extend({
+		template: '<footer></footer>'
+	});
+
+	var App = Vue.extend({
+		template: '<div class="main">' +
+		'				<app-header></app-header>' +
+		'				<app-footer></app-footer>' +
+		'			</div>',
+		components: {
+			'app-header': Header,
+			'app-footer': Footer
+		}
+	});
+
+	var app = new Vue({
+		el: '#app',
+		components: {
+			'app': App
+		}
+	});
+
+</script>
+<!-- Javascript end -->
+</body>
+</html>
