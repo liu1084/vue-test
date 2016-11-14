@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>Vue Components</title>
+	<link rel="shortcut icon" href="../assets/img/favicon.ico"/>
+</head>
+<body>
+<div id="app">
+	<div is="hello"></div>
+</div>
+
+<div id="app2">
+	<div is="parent-component"></div>
+</div>
+<!-- Javascript start -->
+<script src="../../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script>
+	var componentName = Vue.extend({
+		template: '<div v-bind:title="message">{{message}}</div>',
+		data: function () {
+			return {
+				message: Date.now()
+			};
+		}
+	});
+
+	Vue.component('hello', componentName);
+
+	new Vue({
+		el: '#app'
+	});
+</script>
+
+<script>
+	var Child = Vue.extend({
+		template: '<div>Child:A custom component!</div>'
+	});
+
+	var Parent = Vue.extend({
+		template: '<div>Parent:<my-component></my-component></div>',
+		components: {
+			'my-component': Child
+		}
+	});
+
+	new Vue({
+		el: '#app2',
+		components: {
+			'parent-component': Parent
+		}
+	})
+</script>
+
+
+<!-- Javascript end -->
+</body>
+</html>

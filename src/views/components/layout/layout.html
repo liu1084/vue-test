@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../../../assets/img/favicon.ico"/>
+</head>
+<body>
+	<div id="app">
+		<home></home>
+		<archive></archive>
+	</div>
+<!-- Javascript start -->
+<script src="../../../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script type="text/x-template" id="layout">
+	<div class="main">
+		<link rel="stylesheet" href=""/>
+		<header>
+			<slot name="header"></slot>
+		</header>
+
+		<main>
+			<slot></slot>
+		</main>
+
+		<footer>
+			<slot name="footer"></slot>
+		</footer>
+	</div>
+</script>
+
+<script type="text/x-template" id="home">
+	<div>
+		<link rel="stylesheet" href="" slot="header" />
+		<h1 slot="header">Header</h1>
+		<p>A paragraph for the main content.</p>
+		<p>A paragraph for the main content.</p>
+		<h1 slot="footer">Footer</h1>
+	</div>
+</script>
+
+<script type="text/x-template" id="archive">
+	<div>
+		<link rel="stylesheet" href="" slot="header" />
+		<p>2015</p>
+		<p>2016</p>
+	</div>
+</script>
+
+
+<script>
+	var Layout = Vue.extend({
+		template: '#layout'
+	});
+
+	var Home = Vue.extend({
+		template: '#home',
+		components: {
+			'app-layout': Layout
+		}
+	});
+
+	var Archive = Vue.extend({
+		template: '#archive',
+		components: {
+			'app-layout': Layout
+		}
+	});
+
+	var app = new Vue({
+		el: '#app',
+		components: {
+			'home': Home,
+			'archive': Archive
+		}
+	});
+</script>
+<!-- Javascript end -->
+</body>
+</html>

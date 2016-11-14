@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../assets/img/favicon.ico"/>
+</head>
+<body>
+	<ul id="list">
+		<li v-for="item in items">{{item.text}}</li>
+	</ul>
+<!-- Javascript start -->
+<script src="../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script>
+	new Vue({
+		el: '#list',
+		data: {
+			items: [
+				{text: 1},
+				{text: 2},
+				{text: 3},
+				{text: 4},
+				{text: 5},
+				{text: 6}
+			]
+		}
+	});
+</script>
+<!-- Javascript end -->
+</body>
+</html>

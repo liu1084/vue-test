@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../assets/img/favicon.ico"/>
+</head>
+<body>
+	<div id="app">
+		<my-component v-for="item in items">{{item.text}}</my-component>
+		<parent-component>
+
+		</parent-component>
+	</div>
+
+	<script type=""></script>
+<!-- Javascript start -->
+<script src="../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script>
+	var Child = Vue.extend({
+		template: '<div>{{}}</div>',
+		props: ['items']
+	});
+
+
+
+	var Parent = Vue.extend({
+		template: '<div>Parent\'s Child:<my-component :items="items"></my-component></div>',
+		components: {
+			'my-component': Child
+		},
+		data: function(){
+			return {
+				items: [
+					{text: 1},
+					{text: 1},
+					{text: 1},
+					{text: 1},
+					{text: 1}
+				]
+			}
+		}
+	});
+
+	Vue.component('my-component', Child);
+	Vue.component('parent-component', Parent);
+	new Vue({
+		el: '#app'
+	});
+</script>
+<!-- Javascript end -->
+</body>
+</html>

@@ -65,12 +65,12 @@
 	<!--<li is="list-item" v-for="todo in todos" v-bind:todo="todo"></li>-->
 	<!--</ul>-->
 
-	<div id="app-9">
-		<simple-counter></simple-counter>
-		<simple-counter></simple-counter>
-		<simple-counter></simple-counter>
-		<simple-counter></simple-counter>
-	</div>
+	<!--<div id="app-9">-->
+		<!--<simple-counter></simple-counter>-->
+		<!--<simple-counter></simple-counter>-->
+		<!--<simple-counter></simple-counter>-->
+		<!--<simple-counter></simple-counter>-->
+	<!--</div>-->
 
 	<div id="app-10">
 		<div>
@@ -81,7 +81,39 @@
 			<span>{{messageReverse()}}</span>
 			<span v-bind:id="'list-' + number">{{'list-' + number}}</span>
 			<span>{{now}}</span>
+
+			<div><span v-once v-html="em">{{onlyOnce}}</span><span>{{updateAlways}}</span></div>
 		</div>
+	</div>
+
+	<div id="app-11">
+		<ul>
+			<li v-for="item in items">{{item.message}}</li>
+		</ul>
+		<hr/>
+		<ul>
+			<li v-for="(item, index) of items">
+				<span>{{index + 1}}</span>
+				<span>{{item.message}}</span>
+			</li>
+		</ul>
+		<hr/>
+		<ul>
+			<template v-for="item in items">
+				<li>{{ item.message }}</li>
+				<li class="divider"></li>
+			</template>
+		</ul>
+
+		<hr/>
+		<ul>
+			<li v-for="(v, k, i) in myObject">{{i}}:{{k}} --> {{v}}</li>
+		</ul>
+
+		<hr/>
+		<ul>
+			<li v-for="(x, i) in 10">{{i}} - {{x}}</li>
+		</ul>
 	</div>
 </div>
 
@@ -195,51 +227,73 @@
 	//		}
 	//	});
 
-	var app9 = new Vue({
-		el: '#app-9',
-		components: {
-			'simple-counter': {
-				template: '<button v-on:click="counter +=1">{{counter}}</button>',
-				data: function () {
-					return {
-						counter: 0
-					}
+	//	var app9 = new Vue({
+	//		el: '#app-9',
+	//		components: {
+	//			'simple-counter': {
+	//				template: '<button v-on:click="counter +=1">{{counter}}</button>',
+	//				data: function () {
+	//					return {
+	//						counter: 0
+	//					}
+	//				}
+	//			}
+	//		}
+	//	});
+
+		var app10 = new Vue({
+			el: '#app-10',
+			data: {
+				foo: 'bar',
+				//checkButton: false,
+				number: 1,
+				ok: true,
+				message: 'hello world!',
+				onlyOnce: '%3Cscript%3Ealert("XSS")%3C/script%3E',
+				updateAlways: [],
+				em: '<em>tt</em>'
+			},
+			methods: {
+				checkButton: function () {
+					this.checkButton = false;
+				},
+				messageReverse: function(){
+					return this.message.split('').reverse().join('');
+				}
+			},
+			filters: {
+				capitalize: function(value){
+					if (!value) return false;
+					value = value.toString();
+					return value.charAt(0).toUpperCase() + value.slice(1);
+				},
+				reverseString: function(str1, str2){
+					return str1.split('').reverse().join('');
+				}
+
+			},
+			computed: {
+				now: function(){
+					return Date.now();
 				}
 			}
-		}
-	});
+		});
 
-	var app10 = new Vue({
-		el: '#app-10',
+	var app11 = new Vue({
+		el: '#app-11',
 		data: {
-			foo: 'bar',
-			//checkButton: false,
-			number: 1,
-			ok: true,
-			message: 'hello world!'
-		},
-		methods: {
-			checkButton: function () {
-				this.checkButton = false;
-			},
-			messageReverse: function(){
-				return this.message.split('').reverse().join('');
-			}
-		},
-		filters: {
-			capitalize: function(value){
-				if (!value) return false;
-				value = value.toString();
-				return value.charAt(0).toUpperCase() + value.slice(1);
-			},
-			reverseString: function(str1, str2){
-				return str1.split('').reverse().join('');
-			}
-
-		},
-		computed: {
-			now: function(){
-				return Date.now();
+			items: [
+				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem itaque iste accusantium, deleniti quam quos doloremque, modi consequatur saepe recusandae pariatur quod harum magnam id alias fuga labore. Modi, corporis!'},
+				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, odit, excepturi. Animi ex nostrum reprehenderit ea rem repudiandae, possimus fuga, ratione qui pariatur veritatis officia quo laboriosam aliquam optio rerum.'},
+				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus odio vel ad aperiam blanditiis enim incidunt, explicabo quaerat molestias deleniti. Facere fugit maiores consectetur possimus enim, itaque quidem reprehenderit inventore.'},
+				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae laboriosam error unde sint, officia! Blanditiis nulla facilis qui dolorum iure officiis a quos natus nihil obcaecati, suscipit sit nisi eveniet?'},
+				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit repudiandae cupiditate, earum quos id. Laboriosam sequi sed ea quam accusamus, dicta voluptates qui, sint, veritatis neque tenetur ullam, atque possimus?'},
+			],
+			myObject: {
+				name: 'jim',
+				age: 30,
+				email: 'liu1084@163.com',
+				blog: 'blog.83096146.com'
 			}
 		}
 	});

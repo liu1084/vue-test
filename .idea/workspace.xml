@@ -2,7 +2,309 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f918f1-cec5-4fb2-9263-5b0d1f9e6b8f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.babelrc" afterPath="$PROJECT_DIR$/vendor/vue/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.bower.json" afterPath="$PROJECT_DIR$/vendor/vue/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.eslintignore" afterPath="$PROJECT_DIR$/vendor/vue/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.flowconfig" afterPath="$PROJECT_DIR$/vendor/vue/.flowconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.gitignore" afterPath="$PROJECT_DIR$/vendor/vue/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/BACKERS.md" afterPath="$PROJECT_DIR$/vendor/vue/BACKERS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/CODE_OF_CONDUCT.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/CODE_OF_CONDUCT.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/ENV.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/ENV.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/LICENSE" afterPath="$PROJECT_DIR$/vendor/vue/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/README.md" afterPath="$PROJECT_DIR$/vendor/vue/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/README.md" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/README.md" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/README.md" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/_scopeId.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/_scopeId.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/alias.js" afterPath="$PROJECT_DIR$/vendor/vue/build/alias.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/app.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/commits/app.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/commits/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/firebase/app.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/firebase/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/todomvc/app.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/todomvc/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/app.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/array.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/assets.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/assets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/assets.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/assets.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/attrs.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/attrs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/attrs.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/attrs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/attrs.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/attrs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/attrs.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/attrs.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/augmentation-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/augmentation-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/bind.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/bind.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/bind.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/bootstrap.min.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/build.js" afterPath="$PROJECT_DIR$/vendor/vue/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/build.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/build.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/cache.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/children.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/children.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/ci.sh" afterPath="$PROJECT_DIR$/vendor/vue/build/ci.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/circle.yml" afterPath="$PROJECT_DIR$/vendor/vue/circle.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/class-util.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/class-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/class.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/class.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/class.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/class.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/classlist.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/classlist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/cloak.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/cloak.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/codegen.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/codegen.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/commits.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/commits.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/common.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/compat.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/compile.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/compile.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/compiler-options.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/compiler-options.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/compiler.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-async.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-async.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-keep-alive.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-keep-alive.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-slot.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-slot.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/component.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/components.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/components.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/computed.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/computed.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/config.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/config.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/config.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/create-bundle-renderer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/create-bundle-renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-component.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-component.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-element.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-element.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-element.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-element.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/create-renderer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/create-renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/data.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/data.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/debug.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/delimiters.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/delimiters.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/demo.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/dep.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/dep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/directive.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/directive.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/directives.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/directives.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/directives.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/dom-props.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/dom-props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/dom-props.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/dom-props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/dom-props.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/dom-props.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/edge-cases.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/edge-cases.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/el.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/el.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/element.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/element.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/element.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/element.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/entity-decoder.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/entity-decoder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/env.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/env.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/error-detector.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/error-detector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/error.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/events.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/events.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/events.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/events.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/events.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/extend.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/extend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/extend.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/extend.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/extends.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/extends.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/filter-parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/filter-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/filter/filter.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/filter/filter.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/for.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/for.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/functional.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/functional.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/global-api.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/global-api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/grid/grid.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/grid/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/grid.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/helpers.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hooks.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hooks.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/html-parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/html-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/html.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/html.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/html.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/html.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hydration.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hydration.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/if.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/if.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/index.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/reorder-list/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/reorder-list/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/svg/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/svg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/uptime/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/uptime/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/commits/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/commits/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/firebase/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/firebase/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/grid/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/grid/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/markdown/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/markdown/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/modal/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/modal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/move-animations/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/move-animations/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/select2/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/select2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/svg/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/svg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/todomvc/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/todomvc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/tree/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/tree/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/index.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/index.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/components/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/components/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/index.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/init.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/init.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/init.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/inject-styles.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/inject-styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/jasmine.json" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/jasmine.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.base.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.base.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.cover.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.cover.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.dev.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.dev.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.sauce.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.sauce.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.unit.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.unit.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/components/keep-alive.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/components/keep-alive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/lang.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/lang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/lifecycle.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/lifecycle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/lifecycle.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/lifecycle.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/markdown.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/memory-stats.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/memory-stats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/merge-hook.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/merge-hook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-data.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-data.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-events.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-events.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-lifecycle.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-lifecycle.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/methods.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/methods.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/mixin.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/mixin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/mixin.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/mixin.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/mixins.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/mixins.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/modal.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-checkbox.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-checkbox.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-component.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-dynamic.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-dynamic.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-file.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-file.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-radio.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-radio.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-select.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-select.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-text.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-text.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/model.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/model.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/modules.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/modules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/monitor.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/monitor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/name.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/name.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/nightwatch.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/nightwatch.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/node-ops.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/node-ops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/normalize-children.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/normalize-children.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/observer.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/observer.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/on.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/on.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/once.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/once.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/optimizer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/optimizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/optimizer.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/optimizer.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/options-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/options-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/options.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/options.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/options.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/options.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/package.json" afterPath="$PROJECT_DIR$/vendor/vue/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/package.json" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/package.json" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/parent.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/parent.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/sfc/parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/sfc/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/parser.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/parser.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/patch.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/patch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/patch.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/patch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/plugin-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/plugin-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/plugin.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/plugin.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/pre.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/pre.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/properties.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/properties.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/props.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/props.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/props.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/propsData.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/propsData.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/proxy.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/todomvc/readme.md" afterPath="$PROJECT_DIR$/vendor/vue/examples/todomvc/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/ref.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/ref.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/ref.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/ref.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/release.sh" afterPath="$PROJECT_DIR$/vendor/vue/build/release.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/render-stream.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/render-stream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/render.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/render.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/render.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/render.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/render.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/render.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToStream.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToStream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToString.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/run-in-vm.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/run-in-vm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/runner.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/runner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/scheduler.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/scheduler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/scheduler.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/scheduler.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/select2.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/select2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/set-delete.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/set-delete.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/sfc/sfc-parser.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/sfc/sfc-parser.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/show.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/show.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/show.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/show.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/show.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/show.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-bundle-render.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-bundle-render.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-env.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-env.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-stream.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-stream.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-string.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-string.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/state.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/style.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/firebase/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/firebase/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/grid/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/grid/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/markdown/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/markdown/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/modal/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/modal/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/svg/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/svg/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/style.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/style.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/style.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/style.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/style.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/style.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/style.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/styles.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/svg/svg.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/svg/svg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/svg.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/svg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/template.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/template.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/text-parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/text-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/text.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/text.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/text.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/to-equal.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/to-equal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/to-have-been-warned.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/to-have-been-warned.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/todomvc.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/todomvc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition-group.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-group.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-group.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-mode.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-mode.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/transition-util.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/transition-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/transition.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/tree/tree.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/tree/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/tree.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/trigger-event.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/trigger-event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/tsconfig.json" afterPath="$PROJECT_DIR$/vendor/vue/types/test/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/typings.json" afterPath="$PROJECT_DIR$/vendor/vue/types/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/update-listeners.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/update-listeners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/use.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/use.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/use.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/use.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/shared/util.js" afterPath="$PROJECT_DIR$/vendor/vue/src/shared/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/vdom.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/vdom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/vnode.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/vnode.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/vnode.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/vnode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/vnode.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/vnode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/vue-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/vue-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/vue.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/vue.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/wait-for-update.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/wait-for-update.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/watch.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/watch.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/watcher.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/watcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/watcher.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/watcher.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-compiler.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime-with-compiler.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime-with-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-server-renderer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-server-renderer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/write.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/write.js" />
     </list>
     <ignored path="vue-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,28 +326,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="two-way-bind.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#681#876#0" expanded="false" />
-                <element signature="e#879#1248#0" expanded="false" />
-                <element signature="e#2737#2761#0" expanded="false" />
-                <element signature="e#2854#2878#0" expanded="false" />
-                <element signature="e#3923#3947#0" expanded="false" />
-                <element signature="e#4180#4203#0" expanded="false" />
-                <element signature="e#4994#5025#0" expanded="false" />
-                <element signature="e#6205#6228#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="two-way-bind.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/two-way-bind.js">
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -75,6 +357,7 @@
         <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/app/two-way-bind.js" />
         <option value="$PROJECT_DIR$/src/views/two-way-bind.html" />
+        <option value="$PROJECT_DIR$/src/views/component.html" />
       </list>
     </option>
   </component>
@@ -150,9 +433,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,24 +464,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,6 +541,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +551,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/http/xampp/htdocs/blog" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -299,6 +564,9 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\github\Vue\vue-test\src\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\github\Vue\vue-test\src" />
       <recent name="D:\work\github\Vue\vue-test\src\app\components" />
@@ -598,25 +866,29 @@
       <workItem from="1477885617099" duration="19109000" />
       <workItem from="1478451700627" duration="91000" />
       <workItem from="1478451823528" duration="1828000" />
-      <workItem from="1478531170713" duration="185000" />
+      <workItem from="1478531170713" duration="1421000" />
+      <workItem from="1478538295752" duration="643000" />
+      <workItem from="1478620803848" duration="330000" />
+      <workItem from="1478709219951" duration="2859000" />
+      <workItem from="1478794226743" duration="1191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40617000" />
+    <option name="totallyTimeSpent" value="46876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1866" height="1088" extended-state="0" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1866" height="1088" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6143001" sideWeight="0.3035522" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16817725" sideWeight="0.31431648" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6143001" sideWeight="0.6964478" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16817725" sideWeight="0.68568355" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17545748" sideWeight="0.49317408" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,27 +928,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1003,25 +1254,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57328993">
+          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#681#876#0" expanded="false" />
-            <element signature="e#879#1248#0" expanded="false" />
-            <element signature="e#2737#2761#0" expanded="false" />
-            <element signature="e#2854#2878#0" expanded="false" />
-            <element signature="e#3923#3947#0" expanded="false" />
-            <element signature="e#4180#4203#0" expanded="false" />
-            <element signature="e#4994#5025#0" expanded="false" />
-            <element signature="e#6205#6228#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12890625">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

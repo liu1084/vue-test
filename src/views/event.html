@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../assets/img/favicon.ico"/>
+</head>
+<body>
+<div id="app">
+	<event-click></event-click>
+</div>
+<!-- Javascript start -->
+<script src="../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+
+<script type="text/x-template" id="template">
+	<div>
+		<span>{{counter}}</span>
+		<span><button v-on:click="increase()">+</button></span>
+		<span><button v-on:click="decrease()">-</button></span>
+	</div>
+</script>
+<script>
+	var Click = Vue.extend({
+		template: '#template',
+		data: function(){
+			return {
+				counter: 0
+			}
+		},
+		methods: {
+			increase: function(){
+				return this.counter++;
+			},
+			decrease: function(){
+				return this.counter--;
+			}
+		}
+	});
+
+	Vue.component('event-click', Click);
+
+	var app = new Vue({
+		el: '#app'
+	});
+</script>
+<!-- Javascript end -->
+</body>
+</html>
