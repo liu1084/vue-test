@@ -10,47 +10,49 @@
 	<link rel="shortcut icon" href="../../assets/img/favicon.ico"/>
 </head>
 <body>
-	<div id="app">
-		<app></app>
-	</div>
+<div id="app">
+	<my-component></my-component>
+</div>
 <!-- Javascript start -->
 <script src="../../../vendor/vue/dist/vue.js"></script>
 <!-- <script src="../app/two-way-bind.js"></script> -->
+<script type="text/x-template" id="parent">
+	<div>
+		<h1>I'm the parent title</h1>
+		<child>
+			<p>This is some original content.</p>
+			<p>This is some more original content.</p>
+		</child>
+	</div>
+</script>
+
+<script type="text/x-template" id="children">
+	<div>
+		<h2>I'm the child title</h2>
+		<slot>
+			no more than content
+		</slot>
+	</div>
+</script>
+
 <script>
-
-	var Nav = Vue.extend({
-		template: '<nav></nav>'
+	var Child = Vue.extend({
+		template: '#children'
 	});
 
-	var Header = Vue.extend({
-		template: '<header><nav-bar></nav-bar></header>',
+	var Parent = Vue.extend({
+		template: '#parent',
 		components: {
-			'nav-bar': Nav
-		}
-	});
-
-	var Footer = Vue.extend({
-		template: '<footer></footer>'
-	});
-
-	var App = Vue.extend({
-		template: '<div class="main">' +
-		'				<app-header></app-header>' +
-		'				<app-footer></app-footer>' +
-		'			</div>',
-		components: {
-			'app-header': Header,
-			'app-footer': Footer
+			'child': Child
 		}
 	});
 
 	var app = new Vue({
 		el: '#app',
 		components: {
-			'app': App
+			'my-component': Parent
 		}
 	});
-
 </script>
 <!-- Javascript end -->
 </body>

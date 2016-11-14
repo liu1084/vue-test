@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../../assets/img/favicon.ico"/>
+</head>
+<body>
+	<div id="app">
+		<child></child>
+		<another></another>
+	</div>
+<!-- Javascript start -->
+<script src="../../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script>
+	//中央事件总线
+	var bus = new Vue();
+
+	//注册一个新的组件,在button上注册一个click事件,用$emit触发另外一个组件的的clicked自定义事件
+	var Child = Vue.extend({
+		template: '<button v-on:click="clicked">click</button>',
+		data: function(){
+			return {
+				counter: 0
+			};
+		},
+		methods: {
+			clicked: function(){
+				this.counter++;
+				bus.$emit('clicked', this.counter)
+			}
+		}
+	});
+
+	//注册一个新的组件,在created中注册一个接收外部事件如当前可以通过bus.$on接收`clicked`事件
+	var AnotherChild = Vue.extend({
+		template: '<div>{{counter}}</div>',
+		data: function(){
+			return {
+				counter: 0
+			}
+		},
+		created: function(){
+			var _this = this;
+			bus.$on('clicked', function(counter){
+				_this.counter = counter;
+			});
+
+		}
+	});
+
+	var app = new Vue({
+		el: '#app',
+		components: {
+			'child': Child,
+			'another': AnotherChild
+		}
+	});
+</script>
+<!-- Javascript end -->
+</body>
+</html>

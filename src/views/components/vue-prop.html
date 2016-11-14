@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../../assets/img/favicon.ico"/>
+</head>
+<body>
+	<div id="app">
+		<app></app>
+	</div>
+<!-- Javascript start -->
+<script src="../../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script>
+	var Nav = Vue.extend({
+		template: '<nav>' +
+		'				<ul>' +
+		'					<li v-for="menu in menuItems">' +
+		'						<a :href="menu.url">{{menu.text}}</a>' +
+		'					</li>' +
+		'					<li><input type="text" value="" v-model="searchText" /><button>Search</button></li>' +
+		'					<li><button>Sign in</button></li>' +
+		'					<li><button>Sign out</button></li>' +
+		'				</ul>' +
+		'			</nav>',
+		props: {
+			'menuItems': {
+				type: Array,
+				validator: function(value){
+					return (typeof value) !== 'object';
+				}
+			},
+			'searchText': {
+				type: String
+			}
+		}
+	});
+
+	var Header = Vue.extend({
+		template: '<header><component is="nav-bar" :menu-items="menus" :search-text="searchText"></component></header>',
+		components: {
+			'nav-bar': Nav
+		},
+		data: function(){
+			return {
+				'menus': [
+					{text: 'Menu 1', url: 'http://blog.83096146.com/menu/1/'},
+					{text: 'Menu 2', url: 'http://blog.83096146.com/menu/2/'},
+					{text: 'Menu 3', url: 'http://blog.83096146.com/menu/3/'},
+					{text: 'Menu 4', url: 'http://blog.83096146.com/menu/4/'},
+					{text: 'Menu 5', url: 'http://blog.83096146.com/menu/5/'},
+					{text: 'Menu 6', url: 'http://blog.83096146.com/menu/6/'}
+				],
+				'searchText': ''
+			}
+		}
+	});
+
+	var Footer = Vue.extend({
+		template: '<footer></footer>'
+	});
+
+	var App = Vue.extend({
+		template: '<div class="main">' +
+		'				<component is="app-header"></component>' +
+		'				<component is="app-footer"></component>' +
+		'			</div>',
+		components: {
+			'app-header': Header,
+			'app-footer': Footer
+		}
+	});
+
+	var app = new Vue({
+		el: '#app',
+		components: {
+			'app': App
+		}
+	});
+
+</script>
+<!-- Javascript end -->
+</body>
+</html>

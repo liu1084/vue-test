@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+	<title>two-way-bind.html</title>
+	<link rel="shortcut icon" href="../../assets/img/favicon.ico"/>
+</head>
+<body>
+	<div id="app">
+		<div>Total: {{total}}</div>
+		<ul>
+			<li><button-item v-on:increment="incrementTotal"></button-item></li>
+			<li><button-item v-on:increment="incrementTotal"></button-item></li>
+		</ul>
+
+		<div>
+			<label for="username">{{value}}</label>
+			<input id="username" :value="value" v-on:input="value=$event.target.value"/>
+
+			<label for="password">{{password}}</label>
+			<input type="password" id="password" v-model="password" />
+
+			<textarea></textarea>
+		</div>
+	</div>
+<!-- Javascript start -->
+<script src="../../../vendor/vue/dist/vue.js"></script>
+<!-- <script src="../app/two-way-bind.js"></script> -->
+<script>
+	var App = Vue.extend({
+		data: function(){
+			return {
+				counter: 0,
+			}
+		},
+		template: '<button v-on:click="increase">{{counter}}</button>',
+		methods: {
+			increase: function(){
+				this.counter++;
+				this.$emit('increment');
+			}
+		}
+	});
+
+
+	var app = new Vue({
+		el: '#app',
+		data: {
+			total: 0,
+			value: '',
+			password: ''
+		},
+		methods: {
+			incrementTotal: function(){
+				this.total++;
+			}
+		},
+		components: {
+			'button-item': App
+		}
+	});
+
+
+</script>
+<!-- Javascript end -->
+</body>
+</html>
