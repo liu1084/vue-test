@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
@@ -1118,4 +1119,1296 @@
       </provider>
     </entry>
   </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4f918f1-cec5-4fb2-9263-5b0d1f9e6b8f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.babelrc" afterPath="$PROJECT_DIR$/vendor/vue/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.bower.json" afterPath="$PROJECT_DIR$/vendor/vue/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.eslintignore" afterPath="$PROJECT_DIR$/vendor/vue/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/.eslintrc" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.flowconfig" afterPath="$PROJECT_DIR$/vendor/vue/.flowconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.gitignore" afterPath="$PROJECT_DIR$/vendor/vue/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/BACKERS.md" afterPath="$PROJECT_DIR$/vendor/vue/BACKERS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/CODE_OF_CONDUCT.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/CODE_OF_CONDUCT.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/ENV.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/ENV.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/LICENSE" afterPath="$PROJECT_DIR$/vendor/vue/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/vendor/vue/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/README.md" afterPath="$PROJECT_DIR$/vendor/vue/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/README.md" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/README.md" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/README.md" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/_scopeId.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/_scopeId.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/alias.js" afterPath="$PROJECT_DIR$/vendor/vue/build/alias.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/app.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/commits/app.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/commits/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/firebase/app.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/firebase/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/todomvc/app.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/todomvc/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/app.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/array.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/assets.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/assets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/assets.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/assets.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/attrs.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/attrs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/attrs.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/attrs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/attrs.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/attrs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/attrs.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/attrs.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/augmentation-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/augmentation-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/bind.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/bind.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/bind.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/bootstrap.min.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/build.js" afterPath="$PROJECT_DIR$/vendor/vue/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/build.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/build.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/cache.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/children.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/children.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/ci.sh" afterPath="$PROJECT_DIR$/vendor/vue/build/ci.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/circle.yml" afterPath="$PROJECT_DIR$/vendor/vue/circle.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/class-util.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/class-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/class.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/class.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/class.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/class.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/class.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/classlist.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/classlist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/cloak.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/cloak.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/codegen.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/codegen.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/commits.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/commits.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/common.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/compat.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/compile.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/compile.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/compiler-options.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/compiler-options.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/compiler.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-async.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-async.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-keep-alive.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-keep-alive.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-slot.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component-slot.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/component.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/component/component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/components.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/components.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/computed.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/computed.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/config.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/config.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/config.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/create-bundle-renderer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/create-bundle-renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-component.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-component.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-element.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/create-element.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-element.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/create-element.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/create-renderer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/create-renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/data.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/data.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/debug.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/delimiters.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/delimiters.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/demo.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/dep.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/dep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/directive.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/directive.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/directives.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/directives.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/directives.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/dom-props.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/dom-props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/dom-props.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/dom-props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/dom-props.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/dom-props.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/edge-cases.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/edge-cases.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/el.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/el.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/element.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/element.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/element.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/element.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/entity-decoder.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/entity-decoder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/env.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/env.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/error-detector.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/error-detector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/error.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/fixtures/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/events.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/events.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/events.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/events.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/events.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/extend.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/extend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/extend.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/extend.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/extends.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/extends.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/filter-parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/filter-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/filter/filter.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/filter/filter.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/for.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/for.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/functional.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/functional.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/global-api.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/global-api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/grid/grid.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/grid/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/grid.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/helpers.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hooks.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hooks.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/html-parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/html-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/html.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/html.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/html.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/html.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hydration.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/patch/hydration.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/if.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/if.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/index.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/reorder-list/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/reorder-list/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/svg/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/svg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/uptime/index.html" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/uptime/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/commits/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/commits/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/firebase/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/firebase/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/grid/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/grid/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/markdown/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/markdown/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/modal/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/modal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/move-animations/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/move-animations/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/select2/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/select2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/svg/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/svg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/todomvc/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/todomvc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/tree/index.html" afterPath="$PROJECT_DIR$/vendor/vue/examples/tree/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/index.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/index.js" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/codegen/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/components/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/components/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/index.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/index.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/init.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/init.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/init.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/inject-styles.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/inject-styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/jasmine.json" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/jasmine.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.base.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.base.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.cover.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.cover.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.dev.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.dev.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.sauce.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.sauce.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/karma.unit.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/karma.unit.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/components/keep-alive.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/components/keep-alive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/lang.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/lang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/lifecycle.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/lifecycle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/lifecycle.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/lifecycle.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/markdown.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/memory-stats.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/memory-stats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/merge-hook.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/merge-hook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-data.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-data.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-events.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-events.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-lifecycle.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/methods-lifecycle.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/methods.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/methods.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/mixin.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/mixin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/mixin.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/mixin.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/mixins.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/mixins.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/modal.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-checkbox.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-checkbox.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-component.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-dynamic.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-dynamic.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-file.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-file.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-radio.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-radio.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-select.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-select.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-text.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/model-text.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/model.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/model.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/modules.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/modules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/monitor.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/monitor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/name.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/name.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/nightwatch.config.js" afterPath="$PROJECT_DIR$/vendor/vue/build/nightwatch.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/node-ops.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/node-ops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/normalize-children.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/normalize-children.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/observer.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/observer.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/on.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/on.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/once.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/once.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/optimizer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/optimizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/optimizer.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/optimizer.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/options-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/options-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/options.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/options.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/options.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/options.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/package.json" afterPath="$PROJECT_DIR$/vendor/vue/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/package.json" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-server-renderer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/package.json" afterPath="$PROJECT_DIR$/vendor/vue/packages/vue-template-compiler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/parent.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/parent.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/sfc/parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/sfc/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/parser.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/compiler/parser.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/patch.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/patch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/patch.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/patch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/plugin-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/plugin-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/plugin.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/plugin.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/pre.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/pre.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/properties.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/instance/properties.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/util/props.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/util/props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/props.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/props.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/propsData.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/propsData.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/proxy.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/todomvc/readme.md" afterPath="$PROJECT_DIR$/vendor/vue/examples/todomvc/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/ref.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/modules/ref.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/ref.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/ref.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/build/release.sh" afterPath="$PROJECT_DIR$/vendor/vue/build/release.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/render-stream.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/render-stream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/render.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/render.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/render.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/render.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/render.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/render.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToStream.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToStream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToString.js" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/ssr/renderToString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/run-in-vm.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/run-in-vm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/runner.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/runner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/scheduler.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/scheduler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/scheduler.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/scheduler.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/select2.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/select2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/set-delete.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/set-delete.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/sfc/sfc-parser.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/sfc/sfc-parser.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/show.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/directives/show.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/show.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/directives/show.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/show.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/show.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-bundle-render.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-bundle-render.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-env.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-env.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-stream.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-stream.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-string.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/ssr/ssr-string.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/instance/state.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/instance/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/style.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/big-table/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/elastic-header/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/firebase/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/firebase/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/grid/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/grid/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/markdown/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/markdown/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/modal/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/modal/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/svg/style.css" afterPath="$PROJECT_DIR$/vendor/vue/examples/svg/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/style.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/modules/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/style.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/style.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/server/modules/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/style.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/style.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/style.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/vdom/modules/style.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/styles.css" afterPath="$PROJECT_DIR$/vendor/vue/benchmarks/dbmon/lib/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/svg/svg.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/svg/svg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/svg.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/svg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/template.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/template.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/text-parser.js" afterPath="$PROJECT_DIR$/vendor/vue/src/compiler/parser/text-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/text.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/compiler/directives/text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/text.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/directives/text.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/to-equal.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/to-equal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/to-have-been-warned.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/to-have-been-warned.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/todomvc.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/todomvc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition-group.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-group.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-group.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-mode.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition-mode.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/transition-util.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/transition-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/components/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/transition.js" afterPath="$PROJECT_DIR$/vendor/vue/src/platforms/web/runtime/modules/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/transition/transition.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/examples/tree/tree.js" afterPath="$PROJECT_DIR$/vendor/vue/examples/tree/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/tree.js" afterPath="$PROJECT_DIR$/vendor/vue/test/e2e/specs/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/trigger-event.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/trigger-event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/tsconfig.json" afterPath="$PROJECT_DIR$/vendor/vue/types/test/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/typings.json" afterPath="$PROJECT_DIR$/vendor/vue/types/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/update-listeners.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/helpers/update-listeners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/global-api/use.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/global-api/use.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/use.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/global-api/use.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/shared/util.js" afterPath="$PROJECT_DIR$/vendor/vue/src/shared/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/vdom.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/vdom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/vnode.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/vnode.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/flow/vnode.js" afterPath="$PROJECT_DIR$/vendor/vue/flow/vnode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/vdom/vnode.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/vdom/vnode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/test/vue-test.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/test/vue-test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/types/vue.d.ts" afterPath="$PROJECT_DIR$/vendor/vue/types/vue.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/helpers/wait-for-update.js" afterPath="$PROJECT_DIR$/vendor/vue/test/helpers/wait-for-update.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/watch.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/features/options/watch.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/core/observer/watcher.js" afterPath="$PROJECT_DIR$/vendor/vue/src/core/observer/watcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/watcher.spec.js" afterPath="$PROJECT_DIR$/vendor/vue/test/unit/modules/observer/watcher.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-compiler.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime-with-compiler.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime-with-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/entries/web-server-renderer.js" afterPath="$PROJECT_DIR$/vendor/vue/src/entries/web-server-renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vue/src/server/write.js" afterPath="$PROJECT_DIR$/vendor/vue/src/server/write.js" />
+    </list>
+    <ignored path="vue-test.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="vue-test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/src/app/components/hello.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/hello.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/app/two-way-bind.js" />
+        <option value="$PROJECT_DIR$/src/views/two-way-bind.html" />
+        <option value="$PROJECT_DIR$/src/views/component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1866" />
+    <option name="height" value="1088" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="D:/http/xampp/htdocs/blog" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\github\Vue\vue-test\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\github\Vue\vue-test\src" />
+      <recent name="D:\work\github\Vue\vue-test\src\app\components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\neusoft\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4f918f1-cec5-4fb2-9263-5b0d1f9e6b8f" name="Default" comment="" />
+      <created>1477538320838</created>
+      <option name="number" value="Default" />
+      <updated>1477538320838</updated>
+      <workItem from="1477538322559" duration="622000" />
+      <workItem from="1477538966595" duration="824000" />
+      <workItem from="1477540313852" duration="3364000" />
+      <workItem from="1477556331577" duration="1456000" />
+      <workItem from="1477558462291" duration="500000" />
+      <workItem from="1477559060419" duration="33000" />
+      <workItem from="1477560904298" duration="2375000" />
+      <workItem from="1477563414366" duration="288000" />
+      <workItem from="1477563744012" duration="98000" />
+      <workItem from="1477563881936" duration="269000" />
+      <workItem from="1477564165628" duration="2278000" />
+      <workItem from="1477617404626" duration="6396000" />
+      <workItem from="1477641214564" duration="901000" />
+      <workItem from="1477885617099" duration="19109000" />
+      <workItem from="1478451700627" duration="91000" />
+      <workItem from="1478451823528" duration="1828000" />
+      <workItem from="1478531170713" duration="1421000" />
+      <workItem from="1478538295752" duration="643000" />
+      <workItem from="1478620803848" duration="330000" />
+      <workItem from="1478709219951" duration="2859000" />
+      <workItem from="1478794226743" duration="1191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46876000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1866" height="1088" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16817725" sideWeight="0.31431648" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16817725" sideWeight="0.68568355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17545748" sideWeight="0.49317408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20451613" sideWeight="0.5068259" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/clone/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/navigator/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/two-way-bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/two-way-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57328993">
+          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12890625">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+>>>>>>> 89a5a20a791b340eef7a6b20468333db9e7635a1
 </project>

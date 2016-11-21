@@ -256,7 +256,7 @@ describe('parser', () => {
     expect(ast2.classBinding).toBe('class1')
     // interpolation warning
     parse('<p class="{{error}}">hello world</p>', baseOptions)
-    expect('Interpolation inside attributes has been deprecated').toHaveBeenWarned()
+    expect('Interpolation inside attributes has been removed').toHaveBeenWarned()
   })
 
   it('style binding', () => {
@@ -318,7 +318,7 @@ describe('parser', () => {
     expect(ast1.attrs[2].value).toBe('"hello world"')
     // interpolation warning
     parse('<input type="text" name="field1" value="{{msg}}">', baseOptions)
-    expect('Interpolation inside attributes has been deprecated').toHaveBeenWarned()
+    expect('Interpolation inside attributes has been removed').toHaveBeenWarned()
   })
 
   if (!isIE) {
@@ -374,5 +374,27 @@ describe('parser', () => {
     expect(code.children[0].text).toBe('  \n')
     expect(code.children[2].type).toBe(3)
     expect(code.children[2].text).toBe('\n  ')
+  })
+
+  it('forgivingly handle < in plain text', () => {
+    const options = extend({}, baseOptions)
+    const ast = parse('<p>1 < 2 < 3</p>', options)
+    expect(ast.tag).toBe('p')
+    expect(ast.children.length).toBe(1)
+    expect(ast.children[0].type).toBe(3)
+    expect(ast.children[0].text).toBe('1 < 2 < 3')
+  })
+
+  it('IE conditional comments', () => {
+    const options = extend({}, baseOptions)
+    const ast = parse(`
+      <div>
+        <!--[if lte IE 8]>
+          <p>Test 1</p>
+        <![endif]-->
+      </div>
+    `, options)
+    expect(ast.tag).toBe('div')
+    expect(ast.chilldren).toBeUndefined()
   })
 })
