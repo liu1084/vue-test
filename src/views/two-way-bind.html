@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-
 <html>
 <head>
 	<meta charset="UTF-8"/>
@@ -67,10 +65,10 @@
 	<!--</ul>-->
 
 	<!--<div id="app-9">-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
+	<!--<simple-counter></simple-counter>-->
+	<!--<simple-counter></simple-counter>-->
+	<!--<simple-counter></simple-counter>-->
+	<!--<simple-counter></simple-counter>-->
 	<!--</div>-->
 
 	<div id="app-10">
@@ -242,43 +240,43 @@
 	//		}
 	//	});
 
-		var app10 = new Vue({
-			el: '#app-10',
-			data: {
-				foo: 'bar',
-				//checkButton: false,
-				number: 1,
-				ok: true,
-				message: 'hello world!',
-				onlyOnce: '%3Cscript%3Ealert("XSS")%3C/script%3E',
-				updateAlways: [],
-				em: '<em>tt</em>'
+	var app10 = new Vue({
+		el: '#app-10',
+		data: {
+			foo: 'bar',
+			//checkButton: false,
+			number: 1,
+			ok: true,
+			message: 'hello world!',
+			onlyOnce: '%3Cscript%3Ealert("XSS")%3C/script%3E',
+			updateAlways: [],
+			em: '<em>tt</em>'
+		},
+		methods: {
+			checkButton: function () {
+				this.checkButton = false;
 			},
-			methods: {
-				checkButton: function () {
-					this.checkButton = false;
-				},
-				messageReverse: function(){
-					return this.message.split('').reverse().join('');
-				}
-			},
-			filters: {
-				capitalize: function(value){
-					if (!value) return false;
-					value = value.toString();
-					return value.charAt(0).toUpperCase() + value.slice(1);
-				},
-				reverseString: function(str1, str2){
-					return str1.split('').reverse().join('');
-				}
-
-			},
-			computed: {
-				now: function(){
-					return Date.now();
-				}
+			messageReverse: function(){
+				return this.message.split('').reverse().join('');
 			}
-		});
+		},
+		filters: {
+			capitalize: function(value){
+				if (!value) return false;
+				value = value.toString();
+				return value.charAt(0).toUpperCase() + value.slice(1);
+			},
+			reverseString: function(str1, str2){
+				return str1.split('').reverse().join('');
+			}
+
+		},
+		computed: {
+			now: function(){
+				return Date.now();
+			}
+		}
+	});
 
 	var app11 = new Vue({
 		el: '#app-11',
@@ -301,308 +299,4 @@
 </script>
 <!-- Javascript end -->
 </body>
-=======
-<!DOCTYPE html>
-
-<html>
-<head>
-	<meta charset="UTF-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport"
-		  content="width=device-width, initial-scale=1, maximum-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
-	<title>two-way-bind.html</title>
-	<link rel="shortcut icon" href="../assets/img/favicon.ico"/>
-	<link rel="stylesheet" href="../assets/css/icon/fonts.css"/>
-	<link rel="stylesheet" href="../assets/css/toast.css"/>
-	<link rel="stylesheet" href="../assets/css/index.css"/>
-</head>
-<body>
-<div class="main">
-	<nav>
-		<ul>
-			<li class="nav-active">menu1</li>
-			<li>menu2</li>
-			<li>menu3</li>
-			<li>menu4</li>
-		</ul>
-	</nav>
-	<!--     <div class="hello">
-			<h2 v-bind:message="message">{{message}}</h2>
-			<label for="message">Enter your name:</label>
-			<input type="text" v-model="message" id="message" />
-		</div> -->
-
-	<!-- <div id="app-2">
-		<span v-bind:class="mini">{{mini}}</span>
-		<div v-show="seen">See me, see you</div>
-	</div>
-
-
-	<div id="app-3">
-		<ul>
-			<li v-for="item in items">{{item.text}}</li>
-		</ul>
-	</div>
-
-	<div id="app-5">
-		<form>
-			<input type="text" value="" v-model="message" />
-			<button v-on:click="reverseMessage">{{message}}</button>
-		</form>
-	</div> -->
-	<!--<div id="app-6">-->
-	<!--<form>-->
-	<!--<label for="msg">Input your username:</label>-->
-	<!--<input id="msg" type="text" value="" v-model="username.text" v-on:change="checkUserName"-->
-	<!--v-on:keyup="checkUserName"/>-->
-	<!--<span v-show="username.hasError">{{username.errors[0]}}</span>-->
-	<!--<button v-on:click="checkUserName">submit</button>-->
-	<!--</form>-->
-	<!--</div>-->
-
-	<!--<ul id="app-7">-->
-	<!--<list-item v-for="todo in todos" v-bind:todo="todo"></list-item>-->
-	<!--</ul>-->
-
-	<!--<ul id="app-8">-->
-	<!--<list-item v-for="todo in todos" v-bind:todo="todo"></list-item>-->
-	<!--<li is="list-item" v-for="todo in todos" v-bind:todo="todo"></li>-->
-	<!--</ul>-->
-
-	<!--<div id="app-9">-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-		<!--<simple-counter></simple-counter>-->
-	<!--</div>-->
-
-	<div id="app-10">
-		<div>
-			<span>{{foo}}</span>
-			<button v-bind:disabled="checkButton">submit</button>
-			<span>{{number + 1}}</span>
-			<span>{{ok? 'yes': 'no' | capitalize | reverseString(ok)}}</span>
-			<span>{{messageReverse()}}</span>
-			<span v-bind:id="'list-' + number">{{'list-' + number}}</span>
-			<span>{{now}}</span>
-
-			<div><span v-once v-html="em">{{onlyOnce}}</span><span>{{updateAlways}}</span></div>
-		</div>
-	</div>
-
-	<div id="app-11">
-		<ul>
-			<li v-for="item in items">{{item.message}}</li>
-		</ul>
-		<hr/>
-		<ul>
-			<li v-for="(item, index) of items">
-				<span>{{index + 1}}</span>
-				<span>{{item.message}}</span>
-			</li>
-		</ul>
-		<hr/>
-		<ul>
-			<template v-for="item in items">
-				<li>{{ item.message }}</li>
-				<li class="divider"></li>
-			</template>
-		</ul>
-
-		<hr/>
-		<ul>
-			<li v-for="(v, k, i) in myObject">{{i}}:{{k}} --> {{v}}</li>
-		</ul>
-
-		<hr/>
-		<ul>
-			<li v-for="(x, i) in 10">{{i}} - {{x}}</li>
-		</ul>
-	</div>
-</div>
-
-<!-- Javascript start -->
-<script src="../../vendor/vue/dist/vue.js"></script>
-<script src="../../vendor/jquery/dist/jquery.min.js"></script>
-
-<script src="../app/components/navigator/nav.js"></script>
-<!-- <script src="../app/two-way-bind.js"></script> -->
-
-<script>
-	//	 var app2 = new Vue({
-	//	 	el: '#app-2',
-	//	 	data: {
-	//	 		mini: 'test',
-	//	 		seen: true
-	//	 	}
-	//	 });
-
-	//	 var app3 = new Vue({
-	//	 	el: '#app-3',
-	//	 	data: {
-	//	 		items: [
-	//	 			{text: '1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda optio adipisci quibusdam provident, laborum modi suscipit corrupti quam nihil ipsam doloremque, reiciendis explicabo laudantium pariatur eaque ut. Libero, rem pariatur?'},
-	//	 			{text: '2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi impedit eius et, quae labore dolor, aspernatur ea minima quis iusto qui sit magni atque accusantium nihil deserunt consequatur tenetur!'},
-	//	 			{text: '3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae delectus aspernatur fugit maiores, nisi explicabo mollitia, ut rerum blanditiis aliquid cum consequuntur, impedit nulla, ad molestias quisquam unde et magnam!'},
-	//	 			{text: '4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, explicabo? At, eius deserunt, sapiente nulla veniam dolore ea! Ut facilis reiciendis cupiditate eaque eius culpa, dolor ratione maxime aliquam at.'},
-	//	 		]
-	//	 	}
-	//	 });
-
-	//	 var app5 = new Vue({
-	//	 	el: '#app-5',
-	//	 	data: {
-	//	 		message: 'test message'
-	//	 	},
-	//	 	methods: {
-	//	 		reverseMessage: function (argument) {
-	//	 			this.message = this.message.split(' ').reverse().join(' ');
-	//	 		}
-	//	 	}
-	//	 });
-
-	//	var app6 = new Vue({
-	//		el: '#app-6',
-	//		data: {
-	//			username: {
-	//				text: '',
-	//				errors: [],
-	//				required: true,
-	//				hasError: false
-	//			}
-	//		},
-	//		methods: {
-	//			checkUserName: function (argument) {
-	//				this.username.errors = [];
-	//				if (this.username.required === true && this.username.text.trim().length === 0){
-	//					this.username.errors.push('姓名是必须的');
-	//				}
-	//
-	//				if (this.username.text.length < 4){
-	//					this.username.errors.push('姓名不能少于4个字符')
-	//				}
-	//
-	//				if (!/[a-z]+[a-z0-9_]*@[a-z0-9]+\.[a-z]{2,3}\.?[a-z]{0,3}/.test(this.username.text)){
-	//					this.username.errors.push('姓名必须是email格式');
-	//				}
-	//
-	//				if (this.username.errors.length > 0){
-	//					this.username.hasError = true;
-	//				}
-	//
-	//				return false;
-	//			}
-	//		}
-	//	});
-
-	//	Vue.component('list-item', {
-	//		props: ['todo'],
-	//		template: '<li>{{todo.text}}</li>'
-	//	});
-	//
-	//	var app7 = new Vue({
-	//		el: '#app-7',
-	//		data: {
-	//			todos:  [
-	//				{id: 1, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem ipsa beatae animi aliquid odit quas necessitatibus, assumenda maxime, nobis labore recusandae culpa esse, provident incidunt. Itaque ipsum, amet perspiciatis.'},
-	//				{id: 2, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sint aliquid magni animi temporibus assumenda molestiae odit saepe eius ipsam, voluptates nostrum expedita eaque fugiat ratione sed, maiores velit voluptate.'},
-	//				{id: 3, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugit quam vitae quas. Temporibus repudiandae obcaecati doloribus, esse quas nihil natus laudantium maiores aspernatur dolorum, at dolor et cumque a.'},
-	//				{id: 4, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores saepe repellendus, rem voluptatem voluptatum autem porro a, deleniti. Fugiat molestiae aspernatur fugit id, voluptas quasi fuga architecto. Exercitationem, vel, harum!'},
-	//			]
-	//		}
-	//	});
-
-	//	var app8 = new Vue({
-	//		el: '#app-8',
-	//		data: {
-	//			todos: [
-	//				{id: 1, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum neque voluptatem quidem recusandae, iusto veniam, minima. Doloremque nihil, magnam aliquid iusto at ipsum reprehenderit, dicta, officiis recusandae eaque accusantium quisquam!'},
-	//				{id: 2, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore qui eaque, est cum optio fugiat quis magnam in animi, natus beatae, temporibus ad iste nemo voluptatum tenetur fugit officia itaque.'},
-	//				{id: 3, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fuga at autem distinctio debitis, eaque neque quia sint asperiores quis, assumenda veniam architecto, voluptas! Dolore dolor soluta error repudiandae tenetur.'},
-	//				{id: 4, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa atque ducimus quisquam maxime, quos officiis velit cum iure quidem inventore hic voluptatibus facilis esse nisi commodi accusantium ut! Ut, similique!'},
-	//				{id: 5, text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis modi optio vero sit, accusantium suscipit voluptatibus commodi nisi id nobis harum esse nam inventore consequatur ut, quo dolore animi.'},
-	//			]
-	//		},
-	//		components: {
-	//			'list-item': {
-	//				props: ['todo'],
-	//				template: '<li v-bind:data-id="todo.id">{{todo.text}}</li>'
-	//			}
-	//		}
-	//	});
-
-	//	var app9 = new Vue({
-	//		el: '#app-9',
-	//		components: {
-	//			'simple-counter': {
-	//				template: '<button v-on:click="counter +=1">{{counter}}</button>',
-	//				data: function () {
-	//					return {
-	//						counter: 0
-	//					}
-	//				}
-	//			}
-	//		}
-	//	});
-
-		var app10 = new Vue({
-			el: '#app-10',
-			data: {
-				foo: 'bar',
-				//checkButton: false,
-				number: 1,
-				ok: true,
-				message: 'hello world!',
-				onlyOnce: '%3Cscript%3Ealert("XSS")%3C/script%3E',
-				updateAlways: [],
-				em: '<em>tt</em>'
-			},
-			methods: {
-				checkButton: function () {
-					this.checkButton = false;
-				},
-				messageReverse: function(){
-					return this.message.split('').reverse().join('');
-				}
-			},
-			filters: {
-				capitalize: function(value){
-					if (!value) return false;
-					value = value.toString();
-					return value.charAt(0).toUpperCase() + value.slice(1);
-				},
-				reverseString: function(str1, str2){
-					return str1.split('').reverse().join('');
-				}
-
-			},
-			computed: {
-				now: function(){
-					return Date.now();
-				}
-			}
-		});
-
-	var app11 = new Vue({
-		el: '#app-11',
-		data: {
-			items: [
-				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem itaque iste accusantium, deleniti quam quos doloremque, modi consequatur saepe recusandae pariatur quod harum magnam id alias fuga labore. Modi, corporis!'},
-				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, odit, excepturi. Animi ex nostrum reprehenderit ea rem repudiandae, possimus fuga, ratione qui pariatur veritatis officia quo laboriosam aliquam optio rerum.'},
-				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus odio vel ad aperiam blanditiis enim incidunt, explicabo quaerat molestias deleniti. Facere fugit maiores consectetur possimus enim, itaque quidem reprehenderit inventore.'},
-				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae laboriosam error unde sint, officia! Blanditiis nulla facilis qui dolorum iure officiis a quos natus nihil obcaecati, suscipit sit nisi eveniet?'},
-				{message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit repudiandae cupiditate, earum quos id. Laboriosam sequi sed ea quam accusamus, dicta voluptates qui, sint, veritatis neque tenetur ullam, atque possimus?'},
-			],
-			myObject: {
-				name: 'jim',
-				age: 30,
-				email: 'liu1084@163.com',
-				blog: 'blog.83096146.com'
-			}
-		}
-	});
-</script>
-<!-- Javascript end -->
-</body>
->>>>>>> 89a5a20a791b340eef7a6b20468333db9e7635a1
 </html>
