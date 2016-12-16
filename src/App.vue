@@ -1,4 +1,4 @@
-<template lang="jade">
+ <template lang="jade">
 	div#app
 	h1 {{msg}}
 	div#app1
